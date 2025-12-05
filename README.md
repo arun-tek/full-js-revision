@@ -1,60 +1,91 @@
-# full-js-revision
+# 📚 Full JavaScript Revision
 
-A compact collection of JavaScript exercises, examples, and notes meant for revision and learning. This repository contains small projects, snippets, and explanations that help you revisit core and modern JavaScript concepts.
+A comprehensive collection of JavaScript fundamentals covering core concepts from variable declarations to advanced array and object manipulation.
 
-## Contents
+## 📋 Contents
 
-- exercises/ - practice problems and their solutions
-- examples/ - small example projects demonstrating specific concepts
-- notes/ - short write-ups and explanations
-- demos/ - runnable demo code and playgrounds
+| File | Topics Covered |
+|------|----------------|
+| **letVarConst.js** | Variable declarations (`var`, `let`, `const`), scoping, redeclaration, and reassignment |
+| **dataTypes.js** | Primitive and reference types, type conversion, `typeof`, `Array.isArray()` |
+| **stackVsHeap.js** | Memory allocation: Stack (primitives) vs Heap (references) |
+| **strings.js** | String interpolation, case transformations (camelCase, titleCase, etc.) |
+| **arrays.js** | Array methods: map, filter, reduce, sort, flat, find, some, every, and more |
+| **object.js** | Object manipulation, iteration, shallow vs deep copying |
 
-## Key Topics Covered
+## 🎯 Key Topics
 
-- Core JavaScript (variables, scope, closures, hoisting)
-- ES6+ features (arrow functions, modules, destructuring, async/await)
-- Asynchronous patterns (promises, async/await, event loop)
-- DOM manipulation and event handling
-- Testing basics and simple tooling
-- Functional patterns and immutability
+### Variables & Scope
+- **var**: Function-scoped, allows redeclaration
+- **let**: Block-scoped, no redeclaration, allows reassignment  
+- **const**: Block-scoped, immutable binding
 
-## Getting Started
+### Data Types
+- **Primitives**: String, Number, Boolean, Null, Undefined (stored in stack)
+- **References**: Array, Object (stored in heap)
+- Type conversion and checking methods
 
-1. Clone the repository:
+### Memory Management
+- **Stack**: Primitives create independent copies
+- **Heap**: References share memory locations
 
-   git clone https://github.com/arun-tek/full-js-revision.git
-   cd full-js-revision
+### String Methods
+- Template literals for interpolation
+- Case transformations: `toUpperCase()`, `toLowerCase()`, `charAt()`, `slice()`
+- String-to-array conversion with `split()`
 
-2. Install dependencies (if a subproject requires it):
+### Array Operations
+- **Modification**: `push()`, `pop()`, `shift()`, `unshift()`
+- **Iteration**: `forEach()`, `for...of`, `for...in`
+- **Transformation**: `map()`, `filter()`, `reduce()`, `flat()`, `flatMap()`
+- **Search**: `find()`, `findIndex()`, `includes()`, `indexOf()`
+- **Testing**: `some()`, `every()`
+- **Sorting**: `sort()`, `reverse()`, multi-key sorting
 
-   npm install
+### Object Manipulation
+- Property access: dot notation and bracket notation
+- Iteration: `Object.keys()`, `Object.values()`, `Object.entries()`
+- Freezing: `Object.freeze()`
+- Inheritance: `Object.create()`
+- **Copying**: Shallow (`...spread`, `Object.assign()`) vs Deep (`JSON.parse(JSON.stringify())`, `structuredClone()`)
 
-3. Run examples or demos as directed in each folder's README.
+## 🚀 Getting Started
 
-## Usage
+```bash
+# Clone the repository
+git clone https://github.com/arun-tek/full-js-revision.git
+cd full-js-revision
 
-Each folder contains its own README or instructions for running the code. Common patterns:
+# Run any file
+node letVarConst.js
+node arrays.js
+# ... etc
+```
 
-- node path/to/script.js — run Node examples
-- open demos in your browser for front-end examples
-- run npm scripts where available (see package.json in each subproject)
+## 📖 Learning Path
 
-## Contributing
+1. **letVarConst.js** → Variable declarations and scoping
+2. **dataTypes.js** → Understanding data types
+3. **stackVsHeap.js** → Memory management
+4. **strings.js** → String manipulation
+5. **arrays.js** → Array methods
+6. **object.js** → Object operations
 
-Contributions are welcome. If you add exercises or examples, please:
+## 🤝 Contributing
 
-- Keep each example focused and small
-- Add a short README or comment explaining the goal
-- Add tests or usage notes when applicable
+Contributions welcome! Please:
+- Keep examples focused and well-commented
+- Follow existing code style
+- Test your code before submitting
 
-Open an issue or submit a pull request with your changes.
+## 📄 License
 
-## License
+MIT License - See LICENSE for details.
 
-This repository is provided under the MIT License. See LICENSE for details.
+## 👤 Contact
 
-## Contact
+**Maintainer:** [arun-tek](https://github.com/arun-tek)
 
-Maintainer: arun-tek
+---
 
-If you want specific additions or a different README structure, tell me what you'd like changed and I will update it.
+⭐ Star this repo if it helps your JavaScript learning journey!
