@@ -128,3 +128,16 @@ console.log(sorted1);
 // First: age ASC
 
 // If age same → score DESC
+
+const users2 = [
+  { name: "Arun", admin: false },
+  { name: "Rahul", admin: true }
+];
+
+const hasAdmin = users2.some(user => user.admin);
+
+console.log(hasAdmin); // ✅ true
+
+const hasAllAdmin = users2.every(user => user.admin);
+
+console.log(hasAllAdmin); // ❌ false
