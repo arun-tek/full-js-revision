@@ -86,3 +86,19 @@ console.log(user2.address.city); // Output: Miami kyuki deep copy tha
 const deepUser2 = structuredClone(user2);
 deepUser2.address.zip = 60601;
 console.log(user2.address.zip); // Output: 33101
+
+const jo = {tittle: "developer",
+    company: "xyz",
+    details: {
+        location: "remote",
+        salary: "100k"
+    }
+};
+
+console.log(Object.entries(jo));
+
+// [
+//   [ 'tittle', 'developer' ],
+//   [ 'company', 'xyz' ],
+//   [ 'details', { location: 'remote', salary: '100k' } ]
+// ]
