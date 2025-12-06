@@ -95,7 +95,7 @@ const objTest = {tittle: "developer",
     }
 };
 
-console.log(Object.entries(jo));
+console.log(Object.entries(objTest));
 
 // [
 //   [ 'tittle', 'developer' ],
