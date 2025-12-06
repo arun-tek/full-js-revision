@@ -10,6 +10,7 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **dataTypes.js** | Primitive and reference types, type conversion, `typeof`, `Array.isArray()` |
 | **stackVsHeap.js** | Memory allocation: Stack (primitives) vs Heap (references) |
 | **operators.js** | All JavaScript operators: arithmetic, assignment, comparison, logical, bitwise, ternary, and more |
+| **function.js** | Function declarations, arrow functions, callbacks, IIFE, recursion, and 'this' binding |
 | **loops.js** | All loop types: for, while, do-while, for...in, for...of, forEach, map, break, continue |
 | **strings.js** | String interpolation, case transformations (camelCase, titleCase, etc.) |
 | **arrays.js** | Array methods: map, filter, reduce, sort, flat, find, some, every, and more |
@@ -42,6 +43,17 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 - **Type**: `typeof`, `instanceof`
 - **Modern**: Nullish coalescing (`??`), optional chaining (`?.`)
 - **Other**: Comma (`,`), `delete`, `in`, spread (`...`)
+
+### Functions
+- **Function Declaration**: Traditional function syntax with `function` keyword
+- **Function Expression**: Functions assigned to variables
+- **Arrow Functions**: Concise ES6 syntax, lexical `this` binding
+- **Parameters**: Required and optional parameters, default values
+- **Return Values**: Using `return` to send values back to caller
+- **Callbacks**: Functions passed as arguments to other functions
+- **IIFE (Immediately Invoked Function Expressions)**: Self-executing functions for encapsulation
+- **Recursion**: Functions that call themselves with base cases
+- **'this' Binding**: Context differences between arrow and regular functions
 
 ### Loops
 - **for loop**: Traditional index-based iteration with full control
@@ -93,7 +105,8 @@ node arrays.js
 2. **dataTypes.js** → Understanding data types
 3. **stackVsHeap.js** → Memory management
 4. **operators.js** → JavaScript operators
-5. **loops.js** → Loop types and iteration
+5. **function.js** → Function types, arrow functions, callbacks, and recursion
+6. **loops.js** → Loop types and iteration
 6. **strings.js** → String manipulation
 7. **arrays.js** → Array methods
 8. **object.js** → Object operations
