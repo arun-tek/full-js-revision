@@ -87,4 +87,24 @@ const person = {
 person.nameWithAge()  // Arrow function won't work as expected
 person.nameWithAge1()  // Regular function works fine
 
+const addTwo = function(x){
+  return x + 2;
+}
+
+console.log(addTwo(5));  // Should print 7
+
+// Hoisting example - function expressions are not hoisted
+// console.log(addThree(7));  // Should print 10
+// const addThree = (x) => x + 3; // This will give an error because of hoisting sahi jagah pe nahi hai
+
+// Correct way - define before using
+const addThree = (x) => x + 3;
+console.log(addThree(7));  // Should print 10
+
+// but yeah work karega agar function declaration hota
+console.log(addFour(8));  // Should print 12
+function addFour(x) {
+  return x+4;
+}
+
 
