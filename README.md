@@ -11,6 +11,7 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **stackVsHeap.js** | Memory allocation: Stack (primitives) vs Heap (references) |
 | **operators.js** | All JavaScript operators: arithmetic, assignment, comparison, logical, bitwise, ternary, and more |
 | **function.js** | Function declarations, arrow functions, callbacks, IIFE, recursion, and 'this' binding |
+| **callStackEventLoop.js** | Call stack, event loop, synchronous vs asynchronous execution, microtasks vs macrotasks |
 | **loops.js** | All loop types: for, while, do-while, for...in, for...of, forEach, map, break, continue |
 | **strings.js** | String interpolation, case transformations (camelCase, titleCase, etc.) |
 | **arrays.js** | Array methods: map, filter, reduce, sort, flat, find, some, every, and more |
@@ -106,7 +107,8 @@ node arrays.js
 3. **stackVsHeap.js** → Memory management
 4. **operators.js** → JavaScript operators
 5. **function.js** → Function types, arrow functions, callbacks, and recursion
-6. **loops.js** → Loop types and iteration
+6. **callStackEventLoop.js** → Call stack, event loop, and async execution
+7. **loops.js** → Loop types and iteration
 6. **strings.js** → String manipulation
 7. **arrays.js** → Array methods
 8. **object.js** → Object operations
