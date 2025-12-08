@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | RAM RAM</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin: 10px 0; padding: 10px; background-color: #333; border-radius: 5px; display: flex; justify-content: space-between; align-items: center; }
+        button { margin-left: 10px; padding: 5px 10px; background-color: #4CAF50; color: white; border: none; border-radius: 3px; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+        #addBtn { margin-bottom: 20px; padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body style="background-color: #212121;">
+    <div class="parent" style="background-color: #212121; color: white; padding: 20px; text-align: center;">
+        <h1>Days of the Week</h1>
+        <button id="addBtn">Add New Day</button>
+        <ul id="days">
+            <li class="day">Monday</li>
+            <li class="day">Tuesday</li>
+            <li class="day">Wednesday</li>
+            <li class="day">Thursday</li>
+            <li class="day">Friday</li>
+            <li class="day">Saturday</li>
+            <li class="day">Sunday</li>
+        </ul>
+    </div>
+</body>
+
+<script>
+    const parent = document.querySelector('.parent');
+    console.log(parent);
+</script>
+<script src="dom.js"></script>
+</html>

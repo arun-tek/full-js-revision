@@ -16,6 +16,10 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **strings.js** | String interpolation, case transformations (camelCase, titleCase, etc.) |
 | **arrays.js** | Array methods: map, filter, reduce, sort, flat, find, some, every, and more |
 | **object.js** | Object manipulation, iteration, shallow vs deep copying |
+| **dom.js** | DOM manipulation: adding, editing, and deleting elements |
+| **events.js** | Event handling: click, mouse, keyboard, form, window, touch, and custom events |
+| **index.html** | Interactive DOM manipulation demo with add/edit/delete functionality |
+| **events.html** | Interactive event demonstration page with logging |
 
 ## 🎯 Key Topics
 
@@ -94,10 +98,14 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 git clone https://github.com/arun-tek/full-js-revision.git
 cd full-js-revision
 
-# Run any file
+# Run JS files with Node.js
 node letVarConst.js
 node arrays.js
 # ... etc
+
+# Open HTML files in browser
+open index.html    # DOM manipulation demo
+open events.html   # Event handling demo
 ```
 
 ## 📖 Learning Path
@@ -109,9 +117,13 @@ node arrays.js
 5. **function.js** → Function types, arrow functions, callbacks, and recursion
 6. **callStackEventLoop.js** → Call stack, event loop, and async execution
 7. **loops.js** → Loop types and iteration
-6. **strings.js** → String manipulation
-7. **arrays.js** → Array methods
-8. **object.js** → Object operations
+8. **strings.js** → String manipulation
+9. **arrays.js** → Array methods
+10. **object.js** → Object operations
+11. **dom.js** → DOM manipulation basics
+12. **index.html** → Interactive DOM demo (add/edit/delete elements)
+13. **events.js** → Event handling concepts
+14. **events.html** → Interactive event demonstration
 
 ## 🤝 Contributing
 
