@@ -117,14 +117,15 @@ open events.html   # Event handling demo
 4. **operators.js** → JavaScript operators
 5. **function.js** → Function types, arrow functions, callbacks, and recursion
 6. **callStackEventLoop.js** → Call stack, event loop, and async execution
-7. **loops.js** → Loop types and iteration
-8. **strings.js** → String manipulation
-9. **arrays.js** → Array methods
-10. **object.js** → Object operations
-11. **dom.js** → DOM manipulation basics
-12. **index.html** → Interactive DOM demo (add/edit/delete elements)
-13. **events.js** → Event handling concepts
-14. **events.html** → Interactive event demonstration
+7. **promises.js** → Promises, async/await, and asynchronous programming
+8. **loops.js** → Loop types and iteration
+9. **strings.js** → String manipulation
+10. **arrays.js** → Array methods
+11. **object.js** → Object operations
+12. **dom.js** → DOM manipulation basics
+13. **index.html** → Interactive DOM demo (add/edit/delete elements)
+14. **events.js** → Event handling concepts
+15. **events.html** → Interactive event demonstration
 
 ## 🤝 Contributing
 
