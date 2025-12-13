@@ -12,6 +12,7 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **operators.js** | All JavaScript operators: arithmetic, assignment, comparison, logical, bitwise, ternary, and more |
 | **function.js** | Function declarations, arrow functions, callbacks, IIFE, recursion, and 'this' binding |
 | **callStackEventLoop.js** | Call stack, event loop, synchronous vs asynchronous execution, microtasks vs macrotasks |
+| **promises.js** | Promises, async/await, promise chaining, Fetch API, Promise.all, Promise.race |
 | **loops.js** | All loop types: for, while, do-while, for...in, for...of, forEach, map, break, continue |
 | **strings.js** | String interpolation, case transformations (camelCase, titleCase, etc.) |
 | **arrays.js** | Array methods: map, filter, reduce, sort, flat, find, some, every, and more |
