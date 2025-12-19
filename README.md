@@ -21,6 +21,8 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **events.js** | Event handling: click, mouse, keyboard, form, window, touch, and custom events |
 | **index.html** | Interactive DOM manipulation demo with add/edit/delete functionality |
 | **events.html** | Interactive event demonstration page with logging |
+| **prototype.js** | Prototype-based inheritance, constructor functions, __proto__, Object.create() |
+| **oops1.js** | Object-oriented programming concepts (classes, inheritance, encapsulation) |
 
 ## 🎯 Key Topics
 
@@ -126,6 +128,8 @@ open events.html   # Event handling demo
 13. **index.html** → Interactive DOM demo (add/edit/delete elements)
 14. **events.js** → Event handling concepts
 15. **events.html** → Interactive event demonstration
+16. **prototype.js** → Prototype-based inheritance and object delegation
+17. **oops1.js** → Object-oriented programming with classes
 
 ## 🤝 Contributing
 
