@@ -12,6 +12,7 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **operators.js** | All JavaScript operators: arithmetic, assignment, comparison, logical, bitwise, ternary, and more |
 | **function.js** | Function declarations, arrow functions, callbacks, IIFE, recursion, and 'this' binding |
 | **call.js** | Function methods: call() for 'this' context manipulation |
+| **bind.js** | Function method: bind() for creating bound functions and partial application |
 | **callStackEventLoop.js** | Call stack, event loop, synchronous vs asynchronous execution, microtasks vs macrotasks |
 | **promises.js** | Promises, async/await, promise chaining, Fetch API, Promise.all, Promise.race |
 | **loops.js** | All loop types: for, while, do-while, for...in, for...of, forEach, map, break, continue |
@@ -22,6 +23,7 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **events.js** | Event handling: click, mouse, keyboard, form, window, touch, and custom events |
 | **index.html** | Interactive DOM manipulation demo with add/edit/delete functionality |
 | **events.html** | Interactive event demonstration page with logging |
+| **bind.html** | Interactive bind() method demonstration with examples |
 | **prototype.js** | Prototype-based inheritance, constructor functions, __proto__, Object.create() |
 | **oops1.js** | Object-oriented programming concepts (classes, inheritance, encapsulation) |
 | **oops2.js** | Advanced OOP concepts (polymorphism, abstraction, encapsulation patterns) |
@@ -121,8 +123,9 @@ open events.html   # Event handling demo
 3. **stackVsHeap.js** → Memory management
 4. **operators.js** → JavaScript operators
 5. **function.js** → Function types, arrow functions, callbacks, and recursion
-6. **callStackEventLoop.js** → Call stack, event loop, and async execution
-7. **promises.js** → Promises, async/await, and asynchronous programming
+6. **bind.js** → bind() method for creating bound functions
+8. **callStackEventLoop.js** → Call stack, event loop, and async execution
+9. **promises.js** → Promises, async/await, and asynchronous programming
 8. **loops.js** → Loop types and iteration
 9. **strings.js** → String manipulation
 10. **arrays.js** → Array methods
@@ -133,6 +136,8 @@ open events.html   # Event handling demo
 15. **events.html** → Interactive event demonstration
 16. **prototype.js** → Prototype-based inheritance and object delegation
 17. **oops1.js** → Object-oriented programming with classes
+18. **oops2.js** → Advanced OOP concepts
+19. **inheritance.js** → Inheritance patterns
 
 ## 🤝 Contributing
 
