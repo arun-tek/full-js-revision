@@ -24,6 +24,8 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **events.html** | Interactive event demonstration page with logging |
 | **prototype.js** | Prototype-based inheritance, constructor functions, __proto__, Object.create() |
 | **oops1.js** | Object-oriented programming concepts (classes, inheritance, encapsulation) |
+| **oops2.js** | Advanced OOP concepts (polymorphism, abstraction, encapsulation patterns) |
+| **inheritance.js** | Inheritance patterns: classical, prototypal, and ES6 class inheritance |
 
 ## 🎯 Key Topics
 
