@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body style="height: 2000px; font-family: sans-serif;"> <div style="position: fixed; top: 10px; left: 10px; background: yellow; padding: 10px;">
+    <h3>Scroll Count: <span id="count">0</span></h3>
+    <p>Status: <span id="status">Ready</span></p>
+  </div>
+
+  <script>
+    // 1. The Throttle Machine (The Factory)
+    function throttle(func, limit) {
+      let inThrottle = false; // This is the "backpack" variable (The Lock)
+
+      return function() {
+        // If the lock is OPEN, we run the code
+        if (!inThrottle) {
+          func();
+          
+          // Now we LITERALLY lock the door
+          inThrottle = true;
+          document.getElementById("status").innerText = "LOCKED (Waiting...)";
+
+          // After the time limit, we unlock the door
+          setTimeout(() => {
+            inThrottle = false;
+            document.getElementById("status").innerText = "Ready";
+          }, limit);
+        }
+      };
+    }
+
+    let scrollTimes = 0;
+    const countDisplay = document.getElementById("count");
+
+    // 2. The "Real Work" (What we want to do)
+    function updateScrollCount() {
+      scrollTimes++;
+      countDisplay.innerText = scrollTimes;
+      console.log("Scroll event captured!");
+    }
+
+    // 3. Connect the event to our Throttled version
+    // Even if you scroll 100 times in a second, it only updates once every 1000ms.
+    window.addEventListener("scroll", throttle(updateScrollCount, 1000));
+
+  </script>
+</body>
+</html>

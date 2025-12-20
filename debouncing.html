@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h3>Type to Search:</h3>
+  <input type="text" id="userInput" placeholder="Search for movies...">
+  
+  <p>Status: <span id="status">Waiting...</span></p>
+
+  <script>
+    // 1. The Debounce Machine (The Factory)
+    function debounce(func, delay) {
+      let timer; // This is the "backpack" variable that stays alive
+
+      return function() {
+        // Clear the status message immediately
+        document.getElementById("status").innerText = "Typing...";
+
+        // If the user types again, kill the previous timer!
+        // This "reset" is the heart of debouncing.
+        clearTimeout(timer);
+
+        // Start a fresh timer. 
+        // If 500ms pass without another keystroke, finally run the code.
+        timer = setTimeout(() => {
+          func(); 
+        }, delay);
+      };
+    }
+
+    // 2. The "Real Work" function
+    function makeApiCall() {
+      console.log("LITERALLY calling the API now...");
+      document.getElementById("status").innerText = "API Called! ✅";
+    }
+
+    // 3. Connect the input to our debounced function
+    const inputField = document.getElementById("userInput");
+    
+    // We wrap our real work in the debounce "backpack"
+    const debouncedSearch = debounce(makeApiCall, 500);
+
+    // Listen for every key press
+    inputField.addEventListener("input", debouncedSearch);
+
+  </script>
+</body>
+</html>

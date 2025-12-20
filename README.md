@@ -138,10 +138,12 @@ open events.html   # Event handling demo
 13. **object.js** → Object operations
 14. **objectInDepth.js** → Advanced object concepts
 15. **dom.js** → DOM manipulation basics
-13. **index.html** → Interactive DOM demo (add/edit/delete elements)
-14. **events.js** → Event handling concepts
-15. **events.html** → Interactive event demonstration
-16. **bind.html** → Interactive bind() method demonstration
+15. **index.html** → Interactive DOM demo (add/edit/delete elements)
+16. **events.js** → Event handling concepts
+17. **events.html** → Interactive event demonstration
+16. **debouncing.html** → Interactive debouncing demonstration
+17. **throttling.html** → Interactive throttling demonstration
+18. **bind.html** → Interactive bind() method demonstration
 17. **prototype.js** → Prototype-based inheritance and object delegation
 19. **oops1.js** → Object-oriented programming with classes
 20. **oops2.js** → Advanced OOP concepts
