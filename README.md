@@ -17,6 +17,7 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **bind.js** | Function method: bind() for creating bound functions and partial application |
 | **callStackEventLoop.js** | Call stack, event loop, synchronous vs asynchronous execution, microtasks vs macrotasks |
 | **promises.js** | Promises, async/await, promise chaining, Fetch API, Promise.all, Promise.race |
+| **promisesInDetail.js** | Advanced promise patterns, error handling, and real-world examples |
 | **loops.js** | All loop types: for, while, do-while, for...in, for...of, forEach, map, break, continue |
 | **strings.js** | String interpolation, case transformations (camelCase, titleCase, etc.) |
 | **arrays.js** | Array methods: map, filter, reduce, sort, flat, find, some, every, and more |
@@ -26,6 +27,8 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **events.js** | Event handling: click, mouse, keyboard, form, window, touch, and custom events |
 | **index.html** | Interactive DOM manipulation demo with add/edit/delete functionality |
 | **events.html** | Interactive event demonstration page with logging |
+| **debouncing.html** | Interactive debouncing demonstration |
+| **throttling.html** | Interactive throttling demonstration |
 | **bind.html** | Interactive bind() method demonstration with examples |
 | **realUseOfClosure.html** | Interactive closure demonstration with practical examples |
 | **prototype.js** | Prototype-based inheritance, constructor functions, __proto__, Object.create() |
@@ -127,12 +130,14 @@ open events.html   # Event handling demo
 3. **stackVsHeap.js** → Memory management
 4. **operators.js** → JavaScript operators
 5. **function.js** → Function types, arrow functions, callbacks, and recursion
-6. **lexicalScoping.js** → Lexical scoping and variable lookup
+6. **getterSetter.js** → Getters and setters in JavaScript
+7. **lexicalScoping.js** → Lexical scoping and variable lookup
 7. **closure.js** → Closures and capturing variables
 8. **bind.js** → bind() method for creating bound functions
 8. **callStackEventLoop.js** → Call stack, event loop, and async execution
 9. **promises.js** → Promises, async/await, and asynchronous programming
-10. **loops.js** → Loop types and iteration
+10. **promisesInDetail.js** → Advanced promise patterns
+11. **loops.js** → Loop types and iteration
 11. **strings.js** → String manipulation
 12. **arrays.js** → Array methods
 13. **object.js** → Object operations
