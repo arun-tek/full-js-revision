@@ -11,6 +11,8 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **stackVsHeap.js** | Memory allocation: Stack (primitives) vs Heap (references) |
 | **operators.js** | All JavaScript operators: arithmetic, assignment, comparison, logical, bitwise, ternary, and more |
 | **function.js** | Function declarations, arrow functions, callbacks, IIFE, recursion, and 'this' binding |
+| **lexicalScoping.js** | Lexical scoping, variable lookup, and scope chain |
+| **closure.js** | Closures, capturing variables, and practical examples |
 | **call.js** | Function methods: call() for 'this' context manipulation |
 | **bind.js** | Function method: bind() for creating bound functions and partial application |
 | **callStackEventLoop.js** | Call stack, event loop, synchronous vs asynchronous execution, microtasks vs macrotasks |
@@ -19,11 +21,13 @@ A comprehensive collection of JavaScript fundamentals covering core concepts fro
 | **strings.js** | String interpolation, case transformations (camelCase, titleCase, etc.) |
 | **arrays.js** | Array methods: map, filter, reduce, sort, flat, find, some, every, and more |
 | **object.js** | Object manipulation, iteration, shallow vs deep copying |
+| **objectInDepth.js** | Advanced object concepts, property descriptors, getters/setters |
 | **dom.js** | DOM manipulation: adding, editing, and deleting elements |
 | **events.js** | Event handling: click, mouse, keyboard, form, window, touch, and custom events |
 | **index.html** | Interactive DOM manipulation demo with add/edit/delete functionality |
 | **events.html** | Interactive event demonstration page with logging |
 | **bind.html** | Interactive bind() method demonstration with examples |
+| **realUseOfClosure.html** | Interactive closure demonstration with practical examples |
 | **prototype.js** | Prototype-based inheritance, constructor functions, __proto__, Object.create() |
 | **oops1.js** | Object-oriented programming concepts (classes, inheritance, encapsulation) |
 | **oops2.js** | Advanced OOP concepts (polymorphism, abstraction, encapsulation patterns) |
@@ -123,14 +127,17 @@ open events.html   # Event handling demo
 3. **stackVsHeap.js** → Memory management
 4. **operators.js** → JavaScript operators
 5. **function.js** → Function types, arrow functions, callbacks, and recursion
-6. **bind.js** → bind() method for creating bound functions
+6. **lexicalScoping.js** → Lexical scoping and variable lookup
+7. **closure.js** → Closures and capturing variables
+8. **bind.js** → bind() method for creating bound functions
 8. **callStackEventLoop.js** → Call stack, event loop, and async execution
 9. **promises.js** → Promises, async/await, and asynchronous programming
-8. **loops.js** → Loop types and iteration
-9. **strings.js** → String manipulation
-10. **arrays.js** → Array methods
-11. **object.js** → Object operations
-12. **dom.js** → DOM manipulation basics
+10. **loops.js** → Loop types and iteration
+11. **strings.js** → String manipulation
+12. **arrays.js** → Array methods
+13. **object.js** → Object operations
+14. **objectInDepth.js** → Advanced object concepts
+15. **dom.js** → DOM manipulation basics
 13. **index.html** → Interactive DOM demo (add/edit/delete elements)
 14. **events.js** → Event handling concepts
 15. **events.html** → Interactive event demonstration
@@ -138,7 +145,8 @@ open events.html   # Event handling demo
 17. **prototype.js** → Prototype-based inheritance and object delegation
 19. **oops1.js** → Object-oriented programming with classes
 20. **oops2.js** → Advanced OOP concepts
-21. **inheritance.js** → Inheritance patterns
+21. **publicPrivateProtected.js** → Public, private, and protected access modifiers
+22. **inheritance.js** → Inheritance patterns
 
 ## 🤝 Contributing
 

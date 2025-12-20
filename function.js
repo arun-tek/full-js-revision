@@ -108,3 +108,33 @@ function addFour(x) {
 }
 
 
+// A higher-order function (HOF) in JavaScript is a function that does at least one of these:
+
+// Takes another function as an argument, OR
+// Returns a function as a result (or both).
+
+// They make code reusable, modular, and powerful.
+
+function greet(name) {
+  return "Hello " + name;
+}
+
+function printMessage(fn, value) {
+  console.log(fn(value)); 
+}
+
+printMessage(greet, "Arun");
+
+function multiply(x) {
+  return function(y) {
+    return x * y;
+  };
+}
+
+const double = multiply(2);
+
+console.log(double(5)); // 10
+
+// map, filter, reduce are all examples of HOFs
+
+

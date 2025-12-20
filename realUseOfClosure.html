@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Use Of Closure</title>
+</head>
+<body>
+  <button id="Red">Red</button>
+  <button id="Orange">Orange</button>
+</body>
+  <script>
+    function onClickHandler(color) {
+      // if we do document.body.style.backgroundColor = `${color}` here it will not work because onlick demand a function but here we are giving the result of function call
+      return function() {
+        document.body.style.backgroundColor = `${color}`;
+      }
+    }
+
+    document.getElementById("Red").onclick = onClickHandler("red"); // Assigning the returned function to the onclick event here closure is giving access to color variable
+    document.getElementById("Orange").onclick = onClickHandler("orange");
+  </script>
+</html>
