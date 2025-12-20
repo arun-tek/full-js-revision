@@ -134,10 +134,11 @@ open events.html   # Event handling demo
 13. **index.html** → Interactive DOM demo (add/edit/delete elements)
 14. **events.js** → Event handling concepts
 15. **events.html** → Interactive event demonstration
-16. **prototype.js** → Prototype-based inheritance and object delegation
-17. **oops1.js** → Object-oriented programming with classes
-18. **oops2.js** → Advanced OOP concepts
-19. **inheritance.js** → Inheritance patterns
+16. **bind.html** → Interactive bind() method demonstration
+17. **prototype.js** → Prototype-based inheritance and object delegation
+19. **oops1.js** → Object-oriented programming with classes
+20. **oops2.js** → Advanced OOP concepts
+21. **inheritance.js** → Inheritance patterns
 
 ## 🤝 Contributing
 

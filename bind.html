@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React</title>
+</head>
+<body>
+  <!-- Simple button to demonstrate event handling with bind() -->
+  <button id="myButton">Click Me</button>
+</body>
+  <script>
+    // Example class demonstrating the use of bind() method in event handlers
+    class React {
+      constructor() {
+        // Instance properties
+        this.library = "react";
+        this.server = "https://localhost:3000";
+
+        // Event listener with bind() to ensure 'this' refers to the React instance
+        // Without bind(), 'this' would refer to the button element in handleClick
+        document
+          .getElementById("myButton")
+          .addEventListener("click", this.handleClick.bind(this));
+      }
+
+      // Event handler method
+      handleClick() {
+        console.log("Button clicked!");
+        // 'this' now correctly refers to the React instance due to bind()
+        console.log(this); // Logs the React instance with library and server properties
+      }
+    }
+
+    // Create an instance of React to initialize the event listener
+    const app = new React();
+
+  </script>
+</html>
